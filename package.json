@@ -1,0 +1,21 @@
+{
+  "name": "mlgcapi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "crypto": "^1.0.1",
+    "express": "^4.21.1",
+    "firebase-admin": "^13.0.1",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7"
+  },
+  "description": ""
+}
